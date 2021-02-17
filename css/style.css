@@ -1,0 +1,962 @@
+.bg {
+    width: 100%;
+    height: 800px;
+    background: white;
+    z-index: 2;
+    position: absolute;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    z-index: 4;
+    right: 50px;
+}
+
+.nav_items {
+    color: white;
+    z-index: 4;
+    font-family: Arial;
+    padding: 0 0 3px 0;
+    margin: 45px 50px;
+    right: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    transition: all .3s;
+}
+
+.nav_items:hover {
+    border-bottom: 3px solid white;
+}
+
+.header_top {
+    top: 0;
+    position: fixed;
+    z-index: 4;
+    height: 100px;
+    width: 100%;
+    background: black;
+}
+
+.logo {
+    position: fixed;
+    left: 50px;
+    top: 0px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.column_1 {
+    position: relative;
+}
+
+.title_1 {
+    position: absolute;
+    z-index: 3;
+    color: black;
+    font-family: Arial;
+    top: 300px;
+    font-size: 40px;
+    left: 50px;
+    font-weight: bolder;
+}
+
+.txt_1 {
+    position: absolute;
+    z-index: 3;
+    font-family: Arial;
+    top: 400px;
+    left: 50px;
+    line-height: 30px;
+}
+
+.button_1 {
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    top: 650px;
+    z-index: 3;
+    left: 50px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button_1:hover {
+    background: transparent;
+    color: black;
+}
+
+.button_2 {
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    top: 650px;
+    z-index: 3;
+    left: 180px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button_2:hover {
+    background: transparent;
+    color: black;
+}
+
+.block_1 {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    z-index: 3;
+    background: #919191;
+    top: 800px;
+}
+
+.block_1_top {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+
+.block_1_content_wrds {
+    color: white;
+    text-align: center;
+}
+
+.block_1_content_title {
+    font-size: 40px;
+    font-family: Arial;
+    padding: 0;
+    position: relative;
+    top: 40px;
+}
+
+.block_1_content_txt {
+    font-family: Arial;
+    position: relative;
+    top: 60px;
+    margin: 0 15%;
+    line-height: 30px;
+}
+
+.columns_of_block_1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.column_2 {
+    margin: 50px;
+    border-radius: 10px;
+    width: 400px;
+    background: white;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.column_2:hover {
+    box-shadow: 3px 3px 50px 3px black;
+}
+
+.column_3:hover {
+    box-shadow: 3px 3px 50px 3px black;
+}
+
+.column_4:hover {
+    box-shadow: 3px 3px 50px 3px black;
+}
+
+.column_3 {
+    margin: 50px;
+    border-radius: 10px;
+    width: 400px;
+    background: white;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.column_4 {
+    margin: 50px;
+    border-radius: 10px;
+    width: 400px;
+    background: white;
+    height: 450px;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.title_of_column_1 {
+    font-size: 30px;
+    font-family: Arial;
+    margin: 30px 0;
+}
+
+.title_of_column_2 {
+    font-size: 30px;
+    font-family: Arial;
+    margin: 30px 0;
+}
+
+.title_of_column_3 {
+    font-size: 30px;
+    font-family: Arial;
+    margin: 30px 0;
+}
+
+.images_of_column_2 {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    transition: all .3s;
+}
+
+.images_of_column_3 {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.images_of_column_4 {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    transition: all .3s;
+}
+
+.images_of_column_4:hover {
+    background: black;
+    color: white;
+}
+
+.images_of_column_3:hover {
+    background: black;
+    color: white;
+}
+
+.images_of_column_2:hover {
+    background: black;
+    color: white;
+}
+
+.clmn_2_center {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clmn_3_center {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clmn_4_center {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    position: relative;
+    top: 40px;
+    font-weight: bolder;
+    font-family: Arial;
+}
+
+.column_2_txt {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    font-family: Arial;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.column_3_txt {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    font-family: Arial;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.column_4_txt {
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    font-family: Arial;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.column_2_btn {
+    color: white;
+    background: black;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.column_2_btn:hover {
+    background: transparent;
+    color: black;
+}
+
+.column_3_btn {
+    color: white;
+    background: black;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.column_3_btn:hover {
+    background: transparent;
+    color: black;
+}
+
+.column_4_btn {
+    color: white;
+    background: black;
+    position: relative;
+    font-size: 20px;
+    font-family: Arial;
+    border: 1px solid black;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.column_4_btn:hover {
+    background: transparent;
+    color: black;
+}
+
+#burger {
+    display: none;
+}
+
+@media(min-width:1550px) {
+    .txt_1 {
+        width: 500px;
+    }
+}
+
+
+
+.column_2 {
+    margin: 50px 0 0 100px
+}
+
+.column_4 {
+    margin: 50px 100px 0 0px;
+}
+
+.txt_1 {
+    width: 500px;
+}
+
+
+
+.lexus_2 img {
+    z-index: 2;
+    height: 450px;
+    width: 650px;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+    animation-name: lexus_2;
+    animation-delay: 3s;
+    animation-direction: normal;
+    animation-duration: 7s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+}
+@media(max-width:1291px) {
+    .block_1_content_txt {
+        top: 48px
+    }
+
+    .block_1_content_txt {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .txt_1 {
+        width: 500px;
+    }
+}
+@media(max-width:1215px) {
+    .block_1_content_txt {
+        font-size: 14px;
+
+    }
+
+    column_2_txt {
+        margin: 33px 30px;
+    }
+
+    column_3_txt {
+        margin: 33px 30px;
+    }
+
+    column_4_txt {
+        margin: 33px 30px;
+    }
+}
+@media(max-width:1180px) {
+    .txt_1 {
+        width: 450px;
+    }
+
+    column_2_txt {
+        margin: 20px 30px;
+    }
+
+    column_3_txt {
+        margin: 20px 30px;
+    }
+
+    column_4_txt {
+        margin: 20px 30px;
+    }
+}
+@media(max-width:1024px) {
+    #burger {
+        display: none;
+    }
+
+    label[name="hamburger"] {
+        width: 50px;
+        height: 40px;
+        background: transparent;
+        position: fixed;
+        top: 25px;
+        right: 45px;
+        cursor: pointer;
+        z-index: 6;
+    }
+
+    #burger:checked~.fourth {
+        display: none;
+    }
+
+    #burger:checked~.first {
+        display: none;
+    }
+
+    #burger:checked~.second {
+        transform: rotate(45deg)
+    }
+
+    #burger:checked~.third {
+        transform: rotate(-45deg)
+    }
+
+    #burger:checked~.nav {
+        max-width: 100%;
+        font-size: 20px;
+    }
+
+    .line {
+        position: fixed;
+        top: 35px;
+        right: 50px;
+        width: 40px;
+        height: 3px;
+        background: white;
+        z-index: 5;
+        transition: all .3s;
+    }
+
+    .second,
+    .third {
+        top: 45px;
+    }
+
+    .fourth {
+        top: 55px;
+    }
+
+    .nav {
+        right: 0;
+        display: block;
+        background: black;
+        height: 100%;
+        width: 300px;
+        overflow: hidden;
+        max-width: 0;
+        font-size: 0;
+        transition: all .3s;
+    }
+
+    .nav_items {
+        display: block;
+    }
+
+    .nav_items:hover {
+        border-bottom: 3px solid transparent;
+    }
+
+    .first_nav {
+        margin: 200px 34px 45px 34px;
+    }
+
+    .columns_of_block_1 {
+        flex: none;
+        display: block;
+    }
+
+    .column_2 {
+        margin: 0 50px;
+        width: 90%;
+    }
+
+    .column_3 {
+        margin: 0 50px;
+        width: 90%;
+    }
+
+    .column_4 {
+        margin: 0 50px;
+        width: 90%;
+    }
+
+    .block_1 {
+        height: 2000px;
+    }
+
+    .bg {
+        background: beige;
+    }
+
+    .txt_1 {
+        width: 322px;
+        top: 388px;
+    }
+
+    .button_1 {
+        top: 700px;
+    }
+
+    .button_2 {
+        top: 700px;
+    }
+
+    .title_of_column_1 {
+        position: relative;
+        top: 20px
+    }
+
+    .title_of_column_2 {
+        position: relative;
+        top: 20px
+    }
+
+    .title_of_column_3 {
+        position: relative;
+        top: 20px
+    }
+
+    .block_1_content_txt {
+        line-height: 26px
+    }
+}
+@media(max-width:900px) {
+    .clmn_1_center {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .title_1 {
+        position: relative;
+        max-width: 900px;
+        width: 85%;
+        text-align: center;
+        top: 486px;
+    }
+
+    .txt_1 {
+        max-width: 900px;
+        top: 515px;
+        width: 85%;
+        position: relative;
+    }
+
+    .block_1 {
+        top: 640px;
+        height: 1448px;
+    }
+
+    .block_1_content_txt {
+        font-size: 12px;
+    }
+
+    .block_1_content_title {
+        font-size: 35px;
+    }
+
+    .button_1 {
+        left: 35%;
+    }
+
+    .button_2 {
+        left: 50%;
+    }
+
+    .lexus img {
+        width: 528px;
+        height: 346px;
+        right: 172px;
+    }
+
+    .lexus_2 img {
+        height: 396px;
+        width: 540px;
+        right: 167px;
+        top: 106px;
+    }
+
+    .column_2 {
+        height: 328px;
+        margin: 0 45px 0 45px
+    }
+
+    .column_3 {
+        height: 328px;
+        margin: 0 45px 0 45px;
+    }
+
+    .column_4 {
+        height: 328px;
+        margin: 0 45px 0 45px;
+    }
+}
+@media(max-width:800px) {
+    .column_2 {
+        height: 328px;
+        margin: 0 40px 0 40px
+    }
+
+    .column_3 {
+        height: 328px;
+        margin: 0 40px 0 40px;
+    }
+
+    .column_4 {
+        height: 328px;
+        margin: 0 40px 0 40px;
+    }
+
+    .block_1_content_txt {
+        line-height: 23px;
+    }
+
+    .button_2 {
+        left: 49%;
+    }
+
+    .button_1 {
+        left: 33%;
+    }
+}
+@media(max-width:768px) {
+    .button_1 {
+        top: 734px;
+    }
+
+    .button_2 {
+        top: 734px;
+    }
+
+    .block_1 {
+        top: 609px;
+    }
+
+    .block_1_content_txt {
+        margin: 0px 7%;
+    }
+}
+@media(max-width:700px) {
+    .column_4 {
+        margin: 0 35px 0 35px;
+    }
+
+    .column_3 {
+        margin: 0 35px 0 35px;
+    }
+
+    .column_2 {
+        margin: 0 35px 0 35px;
+    }
+
+    .lexus_2 img {
+        right: 101px;
+    }
+
+    .button_1 {
+        left: 30%;
+    }
+
+    .button_2 {
+        left: 51%;
+    }
+}
+@media(max-width:425px) {
+    .lexus_2 img {
+        right: 34px;
+        height: 280px;
+        width: 379px;
+        top: 127px;
+    }
+
+    .clmn_1_center {
+        text-align: left;
+    }
+
+    .title_1 {
+        text-align: left;
+        left: 22px;
+        width: 95%;
+        max-width: 100%;
+        top: 396px
+    }
+
+    .txt_1 {
+        left: 22px;
+        top: 417px;
+    }
+
+    .bg {
+        height: 920px
+    }
+
+    .button_2 {
+        left: 22px;
+        padding: 20px 161px;
+        top: 849px;
+    }
+
+    .button_1 {
+        left: 22px;
+        padding: 20px 161px;
+        top: 775px;
+    }
+
+    .block_1_content_title {
+        font-size: 30px;
+        top: 20px;
+    }
+
+    .block_1_content_txt {
+        margin: 0px 4%;
+        top: 28px;
+    }
+
+    .block_1_top {
+        height: 340px;
+    }
+
+    .column_2 {
+        margin: 0 22px 0 22px;
+    }
+
+    .column_3 {
+        margin: 0 22px 0 22px;
+    }
+
+    .column_4 {
+        margin: 0 22px 0 22px;
+    }
+
+    .column_2_txt {
+        margin: 19px 30px;
+    }
+
+    .column_3_txt {
+        margin: 19px 30px;
+    }
+
+    .column_4_txt {
+        margin: 19px 30px;
+    }
+}
+@media(max-width:375px) {
+    .bg {
+        height: 990px;
+    }
+
+    .lexus_2 img {
+        right: 1px;
+    }
+
+    .button_2 {
+        left: 22px;
+        padding: 20px 139px;
+        top: 907px;
+    }
+
+    .button_1 {
+        left: 22px;
+        padding: 20px 138px;
+        top: 829px;
+    }
+
+    .block_1_content_title {
+        font-size: 26px;
+        top: 14px;
+    }
+
+    .block_1_content_txt {
+        margin: 0px 2%;
+        top: 27px;
+        line-height: 22px;
+    }
+
+    .column_2_txt {
+        margin: 15px 29px;
+    }
+
+    .column_3_txt {
+        margin: 15px 29px;
+    }
+
+    .column_4_txt {
+        margin: 15px 29px;
+    }
+
+    .column_2_btn {
+        padding: 8px 30px;
+    }
+
+    .column_3_btn {
+        padding: 8px 30px;
+    }
+
+    .column_4_btn {
+        padding: 8px 30px;
+    }
+
+    .column_2 {
+        margin: 0 29px 0 19px;
+    }
+
+    .column_3 {
+        margin: 0 29px 0 19px;
+    }
+
+    .column_4 {
+        margin: 0 29px 0 19px;
+    }
+}
+@media(max-width:320px) {
+    .lexus_2 img {
+        right: 10px;
+        height: 249px;
+        width: 313px;
+    }
+
+    .bg {
+        height: 1019px;
+    }
+
+    .button_1 {
+        left: 22px;
+        padding: 20px 108px;
+        top: 854px;
+    }
+
+    .button_2 {
+        left: 22px;
+        padding: 20px 110px;
+        top: 938px;
+    }
+
+    .block_1_content_title {
+        font-size: 21px;
+        top: 10px;
+    }
+
+    .block_1_content_txt {
+        font-size: 10px;
+    }
+
+    .column_2 {
+        margin: 0 29px 0 16px;
+    }
+
+    .column_3 {
+        margin: 0 29px 0 16px;
+    }
+
+    .column_4 {
+        margin: 0 29px 0 16px;
+    }
+
+    .column_2_btn {
+        padding: 8px 30px;
+        border-radius: 10px;
+    }
+
+    .column_3_btn {
+        padding: 8px 30px;
+        border-radius: 10px;
+    }
+
+    .column_4_btn {
+        padding: 8px 30px;
+        border-radius: 10px;
+    }
+
+    .title_1 {
+        width: 89%;
+    }
+}
